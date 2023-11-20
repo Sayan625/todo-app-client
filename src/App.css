@@ -1,0 +1,117 @@
+.App{
+  height: 100vh;
+  padding: 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+  margin: 0px auto;
+  width: 60%;
+  /* border: 1px solid #ccc;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 8px;
+  min-height: 100%; */
+
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.add-button {
+  background: #00c853;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #e7e7e7;
+  padding: 20px;
+
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  min-height: 5%;
+  cursor:grab;
+  background: #f788d0;
+  transition:  transform 0.1s ease-in-out;
+}
+
+.task-item:active,.task-item:hover {
+  transform: scale(1.05,1.05);
+}
+.task-item:active{
+  cursor: grabbing;
+}
+
+.edit-button {
+  background-color:  rgb(0, 42, 255);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.delete-button {
+  background: #F44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.edit-container {
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.update-button {
+  background: #00c853;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
